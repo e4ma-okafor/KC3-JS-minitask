@@ -77,8 +77,7 @@ const printLowestGreatest = (numArr) => {
     const secondLowest = sortedArray[1];
     const secondGreatest = sortedArray[sortedArray.length - 2];             
     
-    console.log(`The second Lowest number in numArr: ${secondLowest}
-    \nThe second Largest number in numArr: ${secondGreatest}`);             
+    console.log(`The second Lowest number in numArr: ${secondLowest} \nThe second Largest number in numArr: ${secondGreatest}`);             
 }
 const numArr = [4, 20, 16, 8, 2, 13];                       
 printLowestGreatest(numArr);
